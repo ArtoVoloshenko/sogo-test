@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5 {
 }
 .container-fluid {
 	max-width: 1600px;
+	background-position: center;
 }
 .btn {
 	padding-left: 30px;
@@ -227,7 +228,8 @@ textarea.form-control {
 	min-height: 700px;
 }
 .site-hero {
-	background-size: cover;
+	background-position: center;
+	background-size: contain;
 	height: 100vh;
 	min-height: 700px;	
 	width: 100%;
@@ -1091,6 +1093,7 @@ textarea.form-control {
 			height: 300px;
 		}
 	}
+	  
 	.text {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -1102,6 +1105,7 @@ textarea.form-control {
 			// padding: 8rem;	
 		}
 	}
+
 	.bg-image {
 		background-repeat: no-repeat;
 		background-size: cover;
