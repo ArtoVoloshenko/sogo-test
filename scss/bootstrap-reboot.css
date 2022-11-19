@@ -8,8 +8,12 @@
 *,
 *::before,
 *::after {
+<<<<<<< HEAD
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+=======
+  box-sizing: border-box;
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
 }
 
 html {
@@ -24,7 +28,10 @@ html {
 @-ms-viewport {
   width: device-width;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -45,8 +52,12 @@ body {
 }
 
 hr {
+<<<<<<< HEAD
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
+=======
+  box-sizing: content-box;
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
   height: 0;
   overflow: visible;
 }
@@ -95,7 +106,11 @@ dt {
 }
 
 dd {
+<<<<<<< HEAD
   margin-bottom: .5rem;
+=======
+  margin-bottom: 0.5rem;
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
   margin-left: 0;
 }
 
@@ -125,11 +140,19 @@ sup {
 }
 
 sub {
+<<<<<<< HEAD
   bottom: -.25em;
 }
 
 sup {
   top: -.5em;
+=======
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
 }
 
 a {
@@ -138,7 +161,10 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
 a:hover {
   color: #ff9a0e;
   text-decoration: underline;
@@ -148,12 +174,18 @@ a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
 a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
   color: inherit;
   text-decoration: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
 a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
@@ -239,20 +271,33 @@ select {
 }
 
 button,
+<<<<<<< HEAD
 html [type="button"],
 [type="reset"],
 [type="submit"] {
+=======
+html [type=button],
+[type=reset],
+[type=submit] {
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
   -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
+<<<<<<< HEAD
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
+=======
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
   padding: 0;
   border-style: none;
 }
 
+<<<<<<< HEAD
 input[type="radio"],
 input[type="checkbox"] {
   -webkit-box-sizing: border-box;
@@ -264,6 +309,18 @@ input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
+=======
+input[type=radio],
+input[type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=date],
+input[type=time],
+input[type=datetime-local],
+input[type=month] {
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
   -webkit-appearance: listbox;
 }
 
@@ -284,7 +341,11 @@ legend {
   width: 100%;
   max-width: 100%;
   padding: 0;
+<<<<<<< HEAD
   margin-bottom: .5rem;
+=======
+  margin-bottom: 0.5rem;
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
   font-size: 1.5rem;
   line-height: inherit;
   color: inherit;
@@ -295,18 +356,32 @@ progress {
   vertical-align: baseline;
 }
 
+<<<<<<< HEAD
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
 [type="search"] {
+=======
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
   outline-offset: -2px;
   -webkit-appearance: none;
 }
 
+<<<<<<< HEAD
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
+=======
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
   -webkit-appearance: none;
 }
 
@@ -330,5 +405,9 @@ template {
 
 [hidden] {
   display: none !important;
+<<<<<<< HEAD
 }
 /*# sourceMappingURL=bootstrap-reboot.css.map */
+=======
+}/*# sourceMappingURL=bootstrap-reboot.css.map */
+>>>>>>> 2900fd63f3914a2f6826eb509e684f57b89d1fec
